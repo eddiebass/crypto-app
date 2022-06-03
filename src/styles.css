@@ -1,0 +1,26 @@
+/* NAV BAR */
+nav {
+	height: 75px;
+	width: 100%;
+	background: #191919;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	padding: 15px 20px;
+}
+.light {
+	color: aquamarine;
+}
+ul {
+	display: flex;
+	list-style: none;
+	color: aquamarine;
+	padding: 0;
+	gap: 20px;
+}
+li {
+	padding: 15px 20px;
+}
