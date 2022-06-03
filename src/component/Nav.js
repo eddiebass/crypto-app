@@ -6,7 +6,7 @@ const Nav = () => {
 			<p className="logo">
 				crypto<span className="light">Dailies</span>
 			</p>
-			<ul>
+			<ul className="nav-link link">
 				<li>Dashboard</li>
 				<li>About</li>
 			</ul>

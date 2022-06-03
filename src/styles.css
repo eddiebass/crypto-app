@@ -1,3 +1,12 @@
+h1 {
+	font-size: 32px;
+	font-weight: 400;
+	margin: 0;
+	padding-bottom: 50px;
+}
+p {
+	margin: 0;
+}
 /* NAV BAR */
 nav {
 	height: 75px;
@@ -14,13 +23,64 @@ nav {
 .light {
 	color: aquamarine;
 }
-ul {
+.nav-link {
+	color: aquamarine;
+}
+.nav-link li {
+	padding: 15px 20px;
+}
+
+/* COIN */
+main {
+	height: 235px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* padding: 50px; */
+}
+.coin-info {
+	display: flex;
+	gap: 10px;
+}
+input {
+	width: 700px;
+	background: #191919;
+	padding: 0;
+	margin: 0;
+	font-weight: 300;
+}
+input::placeholder {
+	padding-left: 20px;
+}
+button {
+	background: aquamarine;
+	padding: 0 15px;
+	font-weight: 400;
+}
+
+/* FOOTER */
+.popular {
+}
+.popular li {
+	width: 320px;
+	height: 140px;
+	background: #191919;
+	border-radius: 5px;
+}
+
+/* UTILITIES */
+.mod {
+	font-size: 24px;
+	border: none;
+	height: 70px;
+	font-family: inherit;
+	border-radius: 5px;
+}
+
+.link {
 	display: flex;
 	list-style: none;
-	color: aquamarine;
 	padding: 0;
 	gap: 20px;
-}
-li {
-	padding: 15px 20px;
+	margin: 0;
 }
